@@ -19,30 +19,3 @@
 */
 
 
- // define new elements
- const header = document.createElement('div');
- const titleText = document.createElement('h1');
- const dateText = document.createElement('span');
- const tempText = document.createElement('span');
-
- // set class names
- header.classList.add('header');
- dateText.classList.add('date');
- tempText.classList.add('temp');
-
- // setup structure of elements 
- header.appendChild(titleText);
- header.appendChild(dateText);
- header.appendChild(tempText);
-
- // set text content
- titleText.textContent = 'Lambda Times'
- dateText.textContent = 'SMARCH 28, 2019';
- tempText.textContent = '98°';
-
- return header;
-}
-
-const header = document.querySelector('.header');
-const newHeader =  Header
-header.appendChild(newHeader)
